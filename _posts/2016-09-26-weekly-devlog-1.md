@@ -1,0 +1,35 @@
+---
+layout: post
+title: Week 38 devblog
+---
+
+**Hello!**
+
+Last monday I started working on a new game, it's a rougelike platformer shooter-y kinda thing.
+I don't want to be stuck with a project for too long, so my deadline is in two weeks from now.
+
+
+----------
+
+
+###**The idea**###
+
+You wake up in a cave tunnel. It's very dark and filled with dangerous monsters, not a very cozy place. Naturally, you charge forward and shoot everything in your way, because that is simply how you do things. Once you get to the bottom of the cave, there's an elevator. The elevator plays some nice, relaxing music while you descend. You get out of the elevator, and this tunnel looks different. You shoot your way through, but then an enemy you haven't seen before charges at you. You are caught off guard, and the monster rips you in half.
+Then you wake up again, at the beginning of a new cave.
+
+I want to make it feel like you're making progress even if you're dying and starting over a lot, so I'm trying to figure this out a good way of doing that. Maybe you can get upgrades that you don't lose upon dying, or something like that.
+
+
+----------
+
+###**Progress**###
+**Last week** I mostly did behind the scenes stuff, but I got the basic player controlls working. I also played around a bit with level generation, and got the foundation for that set up.
+
+**This week** I want to finish the level generation, add some enemies, make the elevator, and hopefully get some art together. The graphics are very placeholder at the moment :D
+
+----------
+
+I'm probably not very good at this devlog thing, but I'll keep doing it anyways!
+**Thanks for reading, have a good week!**
+
+
