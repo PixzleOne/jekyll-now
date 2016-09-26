@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Games
+permalink: /games/
 ---
 
 <a href="url">https://pixzleone.itch.io/</a>
