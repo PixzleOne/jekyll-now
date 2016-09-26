@@ -12,7 +12,7 @@ I don't want to be stuck with a project for too long, so my deadline is in two w
 ----------
 
 
-###**The idea**###
+**The idea**
 
 You wake up in a cave tunnel. It's very dark and filled with dangerous monsters, not a very cozy place. Naturally, you charge forward and shoot everything in your way, because that is simply how you do things. Once you get to the bottom of the cave, there's an elevator. The elevator plays some nice, relaxing music while you descend. You get out of the elevator, and this tunnel looks different. You shoot your way through, but then an enemy you haven't seen before charges at you. You are caught off guard, and the monster rips you in half.
 Then you wake up again, at the beginning of a new cave.
@@ -22,7 +22,8 @@ I want to make it feel like you're making progress even if you're dying and star
 
 ----------
 
-###**Progress**###
+**Progress**
+
 **Last week** I mostly did behind the scenes stuff, but I got the basic player controlls working. I also played around a bit with level generation, and got the foundation for that set up.
 
 **This week** I want to finish the level generation, add some enemies, make the elevator, and hopefully get some art together. The graphics are very placeholder at the moment :D
