@@ -3,16 +3,36 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  <!--first post-->
+  {% for post in site.posts limit:1 %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <!--title of post-->
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <!--post-->
+        <div class="entry">
+            {{ post.content | strip_html }}
+        </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+  <!--all posts-->
+  {% for post in site.posts offset:1 %}
+    <article class="post">
+        
+        <!--title of post-->
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <!--post preview-->
+      <div class="entry">
+        {{ post.content | strip_html | truncatewords:75}}
+      </div>
+
+        <!--read more link-->
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+    </article>
+  {% endfor %}
+
 </div>
