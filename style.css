@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 150%;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#pboy {
+    height: 500px;
+    width: 500px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+}
